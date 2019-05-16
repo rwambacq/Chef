@@ -1,0 +1,38 @@
+User story 1:
+
+Titel:
+Als ecologisch verantwoord persoon wil ik nooit iets wegwerpen zodat ik een betere indruk nalaat op de planeet.
+
+Context:
+De persoon is thuis en is aan het nadenken wat hij kan maken met wat hij in zijn kast/frigo heeft liggen. Deze persoon wil het huis 
+niet verlaten.
+
+Regels:
+We beschikken een databank met recepten die ingredienten bevatten. De databank bevat 2 schema's. Een schema die recepten bijhoudt en een die een ingredient bijhoudt.
+
+Happy Flow:
+Je kiest ervoor om geen extra ingredienten te halen, voegt je ingredienten toe, en krijgt een lijst voorgeschoteld met alle recepten die je kunt maken.
+
+Sad Flow: 
+De ingevoegde ingredienten resulteren niet in een bestaand recept, en er wordt u vriendelijk gevraagd om toch de optie aan te vinken
+om naar de winkel te gaan.
+
+
+User story 2:
+
+Titel:
+Als alleenwonende student wil ik met de restjes van mijn vorige gerechten iets kunnen koken, zodat ik nooit iets hoef weg te werpen. 
+
+Context:
+De persoon zit op kot, heeft ook ingredienten in z'n kast liggen en fietst graag en heeft geen probleem om naar de winkel te gaan. 
+
+Regels:
+De optie dat men wel naar buiten wil wordt aangeduid. Hierbij wordt het systeem van de 2de functie aangehaald.
+
+Happy Flow: 
+Je kiest ervoor om wel extra ingredienten te halen, voegt je ingredienten toe, en krijgt een lijst voorgeschoteld met alle recepten die je kunt maken. Hierna wordt aan je
+boodschappenlijstje de overschot van je ingredienten toegevoegd. Hierna wordt functie 2 uitgewerkt.
+
+
+Sad Flow: /
+

@@ -1,0 +1,45 @@
+1. Originele backlog (user stories geordend naar prioriteit)
+backlog voor de actual taken:
+https://github.ugent.be/SELab1/project-1718-groep-10/projects/2
+
+backlog met user stories:
+https://github.ugent.be/SELab1/project-1718-groep-10/projects/1
+
+2. Verwijzing naar het prototype dat gebouwd werd
+Recept uit ingrediënt
+Jeroen: https://marvelapp.com/80ij2ha/screen/38950179
+Ruben: https://marvelapp.com/41fj3bb
+
+Goedkoopste winkel vinden
+Thomas: https://marvelapp.com/1439gj9g
+Jules: https://marvelapp.com/62dajgg
+
+3. Ingevuld testsjabloon
+https://github.ugent.be/SELab1/project-1718-groep-10/blob/master/opdrachten/Dashboard.png
+
+4. Opdrachten
+https://github.ugent.be/SELab1/project-1718-groep-10/tree/master/opdrachten
+
+5. Vragen die gesteld werden
+https://github.ugent.be/SELab1/project-1718-groep-10/blob/master/Vragen/vragen
+
+6. Resultaten van de testen
+i.h.b. wat werd aangepast als resultaat van de testen
+
+*1e functie
+suggesties weghalen vooraleer er recepten ingevoerd werden
+gridview <-> listview toggle toelaten; 2 kolommen voor gridview; geen tinder van maken
+favourites laten toevoegen zoals bij Ruben
+flow van schermen zoals bij Jeroen
+het voeg ingrediënt toe scherm (met quantities) zoals bij Ruben
+
+*2e functie
+lijst van ingrediënten tonen voor de prijzenvergelijking van winkels
+winkels laten sorteren op km verwijderd/prijs
+routebeschrijving als allerlaatste scherm
+selecteren in shopping list voor hoeveel personen je wil koken
+in shopping list je aantal + prijs/stuk of prijs/kg toevoegen
+winkelvergelijking laten vertrekken vanuit gecentraliseerde shopping list
+
+7. Conclusies van de nabespreking
+De workshop kwam echt van pas. Het heeft een paar design fouten aan het licht gebracht waar we in de toekomst dan op kunnen letten.

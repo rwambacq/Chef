@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingEnd="25dp"
+    android:paddingStart="25dp">
+
+    <TextView
+        android:id="@+id/txt_slname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="#FFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_sltype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/button_sldelete"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="#c6c5c5" />
+
+    <Button
+        android:id="@+id/button_sldelete"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="3dp"
+        android:background="@drawable/vuil"
+        android:ellipsize="end"
+        android:focusable="false" />
+
+
+</RelativeLayout>

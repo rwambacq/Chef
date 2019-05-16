@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/shopping_detail_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="25dp"
+        android:textColor="#EBEBEB"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/shopping_detail_format"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/shopping_detail_title"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="30dp"
+        android:text="GRAM"
+        android:textColor="#FFF"
+        android:textSize="20sp" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/shopping_detail_format"
+        android:layout_marginStart="90dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/shopping_detail_edit"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textColor="#FFF"
+            android:gravity="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/shopping_detail_warning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/linearLayout"
+        android:layout_marginTop="30dp"
+        android:id="@+id/teskthow"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:text="PRIJZEN"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_marginTop="5dp"
+        android:id="@+id/line"
+        android:layout_width="280dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="2dip"
+        android:layout_below="@id/teskthow"
+        android:background="#ff1500" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp"
+        android:paddingLeft="35dp"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:paddingRight="35dp"
+        android:id="@+id/layout1"
+        android:layout_below="@+id/line"
+        android:paddingTop="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Albert Heijn:"
+            android:layout_marginTop="10sp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="#fff"
+            android:id="@+id/tekst1"/>
+
+        <TextView
+            android:id="@+id/tekst1a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tekst1"
+            android:layout_alignBottom="@+id/tekst1"
+            android:layout_centerHorizontal="true"
+            android:text="€10/kg"
+            android:textSize="17sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/shopping_item_ah"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/my_button"
+            android:text="view"
+            android:textColor="#EBEBEBEB" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp"
+        android:paddingLeft="35dp"
+        android:layout_centerHorizontal="true"
+        android:paddingRight="35dp"
+        android:id="@+id/layout2"
+        android:layout_below="@+id/layout1"
+        android:paddingTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Colruyt:"
+            android:layout_marginTop="10sp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="#fff"
+            android:id="@+id/tekst2"/>
+
+        <TextView
+            android:id="@+id/tekst2a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tekst2"
+            android:layout_alignBottom="@+id/tekst2"
+            android:layout_centerHorizontal="true"
+            android:text="€10/kg"
+            android:textSize="17sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/shopping_item_col"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/my_button"
+            android:text="view"
+            android:textColor="#EBEBEBEB" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp"
+        android:paddingLeft="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:paddingRight="35dp"
+        android:id="@+id/layout3"
+        android:layout_below="@+id/layout2"
+        android:paddingTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delhaize:"
+            android:layout_marginTop="10sp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="#fff"
+            android:id="@+id/tekst3"/>
+
+        <TextView
+            android:id="@+id/tekst3a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tekst3"
+            android:layout_alignBottom="@+id/tekst3"
+            android:layout_centerHorizontal="true"
+            android:text="€10/kg"
+            android:textSize="17sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/shopping_item_del"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/my_button"
+            android:text="view"
+            android:textColor="#EBEBEBEB" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/shopping_item_confirm"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_below="@id/layout3"
+        android:background="@drawable/my_button"
+        android:text="bevestigen"
+        android:textColor="#EBEBEBEB" />
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Chef</string>
+    <string name="recipeButtonExpl">Vind recepten met wat er in je koelkast zit.</string>
+    <string name="recipeButtonTwoExpl">Vind recepten op naam en voeg ze toe aan je boodschappenlijst</string>
+    <string name="shoppingButtonExpl">Je boodschappenlijst met je ingredienten die je hebt opgeslagen</string>
+    <string name="shoppingButtonText">BOODSCHAPPENLIJST</string>
+    <string name="recipeButtonTwoText">VIND RECEPTEN</string>
+    <string name="recipeButtonText">START MET KOKEN</string>
+    <string name="ingredients_top_question">Wat heb je liggen?</string>
+    <string name="add_item_button">VOEG TOE</string>
+    <string name="home_nav">Start</string>
+    <string name="func1_nav">Wat zit er in je koelkast?</string>
+    <string name="func2_nav">Vind recept op naam</string>
+    <string name="shopping_nav">Boodschappenlijst</string>
+    <string name="shopping_title">Boodschappenlijst</string>
+    <string name="shopping_item_button">VOEG TOE</string>
+    <string name="shopping_compare_button">VERGELIJK PRIJZEN</string>
+    <string name="store_route_button">open maps</string>
+    <string name="no_result">Geen resultaten gevonden met deze ingrediënten!</string>
+    <string name="shopping_item_confirm">BEVESTIGEN</string>
+    <string name="shopping_item_warning">veld kan niet leeg zijn</string>
+    <string name="how_to">HOW TO</string>
+    <string name="vind_recept">VIND RECEPT</string>
+    <string name="shopping_favorite">Favorieten</string>
+    <string name="ga_naar_recepten_om_een_favoriet_toe_te_voegen">Ga naar recepten om een favoriet toe te voegen</string>
+    <string name="title">Title</string>
+    <string name="clear_all">WIS ALLES</string>
+
+
+</resources>

@@ -1,0 +1,30 @@
+##################################Recepten##################################
+https://spoonacular.com/api/docs/recipes-api
+Gratis plan: 50 requests/dag, 500 results/dag, 500 tinyrequests/dag
+
+Ik ben niet helemaal zeker wat dit betekent dus ik zou niet voor deze gaan
+
+https://developer.edamam.com/edamam-docs-recipe-api
+Deze heeft een gratis plan (niet zo interessant; maar 5000 calls/maand),
+maar er is ook een tier voor start-ups die gratis kan zijn (moeten we contact voor opnemen), in hun footer staat er dat ze ze gratis aanbieden als er geen winst op gemaakt wordt, dus misschien maken we kans. Dan hebben we een unlimited absoluut aantal calls met wel een throttle van 15 calls per minuut.
+
+https://developer.yummly.com/
+Er is een academisch plan dat je toelaat 30k calls te doen, waarna je access afgesloten wordt. Het is nu april en de deadline ligt ergens in mei, wat dus nog +-60 dagen is. Dit komt er dus op neer dat we 30000/60 =500 calls per dag zouden kunnen doen.
+
+
+https://food2fork.com/about/api
+Gratis plan laat 500 calls per dag toe naar de database
+
+
+##################################Winkels##################################
+https://www.superbudget.be/lang/nl/?&wtd=1RTbc3ufYx3kpCZK
+Website die exact doet wat wij van plan zijn: boodschappenlijstje opstellen en vergelijken. Werkt enkel met colruyt carrefour en delhaize. Ik vraag me af hoe, want ik vind geen api ofzo? Scrapen?
+
+https://boodschappenvergelijker.nl/
+Idem, maar met nederlandse supermarkten
+
+
+Kan ook handig zijn
+https://spoonacular.com/api/docs/ingredients-nutrition-api 
+om ingredienten uit plaintext formaat te parsen 
+

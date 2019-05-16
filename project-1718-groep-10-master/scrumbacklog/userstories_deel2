@@ -1,0 +1,39 @@
+User story 1:
+
+Titel:
+Als student wil ik graag on the go een gerecht kiezen en de winkel waar ik het goedkoopst kan halen, zodat ik geld en tijd uitspaar.
+
+Context:
+Student heeft een vast budget per week en wil niet te veel uitgeven aan het koken. Hij heeft een brakke fiets, en wil geen grote afstanden afleggen.
+Hij weet de winkels in de buurt zijn
+
+Regels:
+2 gevallen:
+
+geval 1: Er bestaaan webapi's van onze winkels en spreken deze aan voor het vinden van de ingredienten uit een bepaald recept
+
+geval 2: We scrapen de webshops.
+
+Happy Flow:
+Je kiest ervoor om geen extra ingredienten te halen, voegt je ingredienten toe, en krijgt een lijst voorgeschoteld met alle recepten die je kunt maken.
+
+Sad Flow: 
+Scrapen is illegaal...
+Ingredient is niet op de webshop te vinden is. Hier komt een melding van, maar wordt verder niets mee gedaan (genegeerd).
+
+User story 2:
+
+Titel:
+Als slechte planner weet ik nooit op voorhand wat ik savonds zal eten, en wil ik graag snel iets kunnen vinden waar ik zin in heb zodat ik lekker, snel en goedkoop kan eten.
+Context:
+Deze persoon weet de winkel niet zijn.
+
+Regels:
+Zelfde regels + het doorverwijzen naar google maps.
+
+Happy Flow: 
+Je kiest ervoor om wel extra ingredienten te halen, voegt je ingredienten toe, en krijgt een lijst voorgeschoteld met alle recepten die je kunt maken. Hierna wordt aan je
+boodschappenlijstje de overschot van je ingredienten toegevoegd. Hierna wordt functie 2 uitgewerkt.
+
+
+Sad Flow: Google maps vind het adres van de winkel niet/ google maps ligt plat. 

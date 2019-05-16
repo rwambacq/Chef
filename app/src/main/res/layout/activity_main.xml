@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height=
+        "match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:gravity="end">
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="30dp"
+            android:id="@+id/points">
+        </TextView>
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="10dp"
+            android:text="@string/slash">
+        </TextView>
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="30dp"
+            android:id="@+id/questionSize">
+        </TextView>
+    </LinearLayout>
+    <TextView
+        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:id="@+id/question"
+        android:textSize="20sp">
+    </TextView>
+
+    <EditText
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:inputType="textAutoCorrect"
+        android:id="@+id/inputVeld" />
+
+    <LinearLayout
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="@string/ok"
+            android:layout_marginEnd="30dp"
+            android:id="@+id/okButton">
+        </Button>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="@string/hint"
+            android:layout_marginStart="30dp"
+            android:id="@+id/hintButton">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
